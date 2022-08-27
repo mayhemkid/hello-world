@@ -18,7 +18,7 @@ jobs:
     steps:
       - checkout
       - run
-         name: "hello"
+         name: "first_message"
          command: "echo hello"
   print_world: 
     docker:
@@ -26,7 +26,7 @@ jobs:
     steps:
       - checkout
       - run
-         name: "world"
+         name: "second message"
          command:"echo world"
 
 
