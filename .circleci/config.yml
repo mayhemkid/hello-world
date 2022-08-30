@@ -29,7 +29,7 @@ workflows:
   version: 2.1
   say_hello_world:  
     jobs:
-      - build
+      - build:
       - print-hello:
           requires:
             - build
