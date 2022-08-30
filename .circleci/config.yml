@@ -22,9 +22,9 @@ jobs:
     steps:
       - checkout
       - run:
-          name: "echo an env var that is part of my project"
-          command: |
-            echo $MY_ENV_VAR
+         name: "echo an env var that is part of my project"
+         command: |
+           echo $MY_ENV_VAR
 workflows:
   version: 2.1
   say_hello_world:  
